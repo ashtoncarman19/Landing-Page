@@ -2,6 +2,16 @@ body{
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    background-color: salmon;
+}
+
+button{
+    text-decoration: none;
+    color: orange;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 img{
@@ -18,48 +28,124 @@ a{
     justify-content: end;
     gap: 20px;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .cat-header{
-    margin-top: 100px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.left{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    width: 200px;
+    font-size: 35px;
+    font-weight: 1000;
+    background-color: gold;
+    border-radius: 20px;
+}
+.left-top{
+   display: flex;
+   flex-flow: row wrap;
+   color: white;
+}
+
+.left-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 110px;
+    font-size: 12px;
+    padding: 25px;
+    margin-left: 20px;
+}
+.right{
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 80px;
+    gap: 50px;
 }
 
 .header-container{
-    border: red solid 2px;
     margin-bottom: 70px;
     background-color: orange;
 
 }
 
+.cat-top{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
 .cat-pictures, .cat-quotes{
     display: flex;
     justify-content: space-evenly;
+    background-color: gold;
+    border-radius: 15px;
 
 }
 
 .cat-quotes{
     margin-top: 15px;
     gap: 100px;
+    background-color: orange;
 }
 
 .dog-header{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
+    font-size: 30px;
+    background-color: gold;
+    padding: 25px;
+    border-radius: 25px;
 
 }
 
 .dog-pictures, .freddy-quote{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    margin-top: 25px;
+    border-radius: 25px;
 }
 
-.footer{
+.footer-top{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+background-color: plum;
+gap: 25px;
+width: 300px;
+align-self: center;
+border-radius: 20px;
+}
 
+.footer-left{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 25px;
 }
