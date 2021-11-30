@@ -1,4 +1,65 @@
-.cat-pictures img {
-    height: 150px;
-    width: 225px;
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 25px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: red
+}
+.header{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.cat-header{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-container{
+    border: red solid 2px;
+    margin-bottom: 70px;
+    background-color: orange;
+
+}
+
+.cat-pictures, .cat-quotes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cat-quotes{
+    margin-top: 15px;
+    gap: 100px;
+}
+
+.dog-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dog-pictures, .freddy-quote{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer{
+
 }
